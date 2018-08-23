@@ -46,3 +46,7 @@ public class Main {
                 "Teatro POO", JOptionPane.INFORMATION_MESSAGE);
     }
 }
+
+/*
+ * Não apresenta a quantidade de cadeiras disponíveis.
+ */

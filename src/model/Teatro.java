@@ -20,6 +20,11 @@ public class Teatro {
      public boolean vender(int fila, int assento) {
         Cadeira cadeira;
         boolean deuCerto = false;
+        /*
+         * Foram definidas "constantes" para que os dados não fossem espalhados pelo código.
+         * Atenção para o uso de constantes.
+         * Além disso, poderia verificar apenas se o método buscaCadeira() retornou nulo.
+         */
         if(fila > 10 || assento > 20 || fila <= 0 || assento <= 0) {
             deuCerto = false;
         }else{
